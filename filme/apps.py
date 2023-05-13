@@ -14,7 +14,7 @@ class FilmesConfig(AppConfig):
 
         usuarios = Usuario.objects.filter(email=email)
         if not usuarios:
-            Usuario.objects.create_superuser(usarname="manager", email=email, password=senha,
+            Usuario.objects.create_superuser(username="manager", email=email, password=senha,
                                              is_active=True, is_staff=True)
 
 
