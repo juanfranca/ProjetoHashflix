@@ -21,7 +21,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 TOKEN_CSRF = os.getenv("TOKEN_CSRF")
-
 if TOKEN_CSRF:
     SECRET_KEY = TOKEN_CSRF
     CSRF_TRUSTED_ORIGINS = ['https://projetohashflix-production.up.railway.app']
