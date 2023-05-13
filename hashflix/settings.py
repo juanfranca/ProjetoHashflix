@@ -29,7 +29,7 @@ else:
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+    
 ALLOWED_HOSTS = ["projetohashflix-production.up.railway.app", "localhost", "127.0.0.1"]
 
 
